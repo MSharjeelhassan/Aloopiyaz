@@ -1,0 +1,83 @@
+.navlist ul {
+    list-style: none;
+
+}
+
+.navlist ul li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+/* .navlogo{
+    margin-left: auto;
+} */
+
+.homeframe {
+    width: 100px;
+    cursor: pointer;
+
+}
+
+.homeframe i:hover {
+    background-color: blueviolet;
+
+}
+
+.nav-link {
+    color: white;
+
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.bluebtn {
+
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 40px 40px 40px 0;
+    background: #1fb6fc !important;
+    border: 1px solid #1fb6fc !important;
+    color: #fff !important;
+    transition: all 1s;
+
+}
+
+.purplebtn {
+    background: #bc6ff1 !important;
+    border: 1px solid #bc6ff1 !important;
+    color: #fff !important;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 40px 40px 40px 0px;
+    transition: all 1s;
+}
+
+.bluebtn:hover {
+    border-radius: 0px 40px 40px 40px;
+}
+
+.purplebtn:hover {
+    border-radius: 0px 40px 40px 40px;
+}
+
+.servicecard {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.fa-quote-right {
+    position: relative;
+    top: -15px;
+}
+
+/* .happycard{
+        width: 450px !important;
+        border: 1px solid red;
+    } */
+
+.why {
+    height: 500px;
+}
