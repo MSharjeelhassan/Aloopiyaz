@@ -1,11 +1,13 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-i{
+
+i {
     padding: 0;
     margin: 0;
 }
+
 .navlist ul {
     list-style: none;
 
@@ -108,14 +110,40 @@ i{
 .portbox:hover .dash {
     background-color: rgb(213, 235, 235) !important;
 }
-.price li{list-style: none;}
 
-.blogimgdiv{height: 300px;
+.price li {
+    list-style: none;
+}
+
+.blogimgdiv {
+    height: 300px;
 
 
 }
-.blogimgdiv img{object-fit: cover;
+
+.blogimgdiv img {
+    object-fit: cover;
 
 }
 
-.maindiv div{width: 220px;}
+.maindiv div {
+    width: 220px;
+}
+.div1{
+    display: flex;
+    gap: 15px;
+}
+
+.footerend li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.footimgdiv{width: 50px;
+    height: 50px;
+    /* border: 1px solid red; */
+
+}
+.footimgdiv img{overflow: hidden;
+    object-fit: cover;
+}
