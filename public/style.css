@@ -1,3 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+i{
+    padding: 0;
+    margin: 0;
+}
 .navlist ul {
     list-style: none;
 
@@ -80,4 +88,32 @@
 
 .why {
     height: 500px;
+}
+
+.team img {
+    object-fit: contain;
+    object-position: center;
+}
+
+.portfolio img {
+    object-fit: cover;
+
+}
+
+.portbox:hover {
+    background-color: hsl(189, 46%, 68%);
+
+}
+
+.portbox:hover .dash {
+    background-color: rgb(213, 235, 235) !important;
+}
+.price li{list-style: none;}
+
+.blogimgdiv{height: 300px;
+
+
+}
+.blogimgdiv img{object-fit: cover;
+
 }
